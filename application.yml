@@ -1,2 +1,2 @@
 ---
-lucky-word: ThirdTime
+eureka.client.serviceUrl.defaultZone=http://localhost:8010/eureka
