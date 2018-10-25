@@ -3,3 +3,6 @@
 lucky-word: Yuvan
 client:
   test: test from cloud
+word-config:
+  luckyWord: Yuvan
+  preamble: Tanisha
