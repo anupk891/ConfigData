@@ -1,0 +1,5 @@
+---
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-primary:8010/eureka/,http://eureka-secondary:8011/eureka/
