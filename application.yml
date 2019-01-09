@@ -7,7 +7,7 @@ eureka:
       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 word-config:
   lucky-man:  Yuvan
-  unlucky-man:  Ajay
+  unlucky-man:  Purohit
 ---
 spring:
   profiles: lab-4-verb
