@@ -5,6 +5,9 @@ eureka:
       defaultZone: http://eureka-secondary:8011/eureka/,http://eureka-tertiary:8012/eureka/,http://eureka-primary:8010/eureka/
   instance:
       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+word-config:
+  lucky-man:  Yuvan
+  unlucky-man:  Ajay
 ---
 spring:
   profiles: lab-4-verb
