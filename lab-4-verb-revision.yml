@@ -6,3 +6,6 @@ eureka:
   instance:
       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 words: ran,knew,had,saw,bought
+
+myprefix:
+  myVal: My_New_Value
